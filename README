@@ -1,1 +1,9 @@
 a template
+
+## Prepare
+
+1. turn off GO111MODULE
+
+go env -w GO111MODULE=off
+
+
