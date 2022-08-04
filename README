@@ -7,3 +7,5 @@ a template
 go env -w GO111MODULE=off
 
 
+GOPATH=$(GOPATH) go build git.sky-city.me/tony/project/cmd/project-command
+
