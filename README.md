@@ -1,4 +1,4 @@
-## a go module backone template
+## A go module backone template
 
 ### Prepare
 
@@ -12,5 +12,7 @@ DOMAIN=github.com  AUSER=silas PROJECT_NAME=govpn ./new_project.sh
 
 - 3. add custom command and  build
 
-GOPATH=$(GOPATH) go build git.sky-city.me/tony/project/cmd/project-command
+cd {project path}
+
+GOPATH=$(pwd) go build git.sky-city.me/tony/project/cmd/project-command
 
